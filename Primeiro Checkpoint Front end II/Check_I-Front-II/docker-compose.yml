@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  checkpointfrontend:
+    build: .
+    container_name: checkpointfrontend
+    ports:
+      - "81:80"
+
+# Para dar start no container: docker-compose up -d
